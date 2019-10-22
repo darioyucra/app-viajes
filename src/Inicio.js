@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import StartBrowser from './StartBrowser';
+import BtnHome from './BtnHome';
 
 class Inicio extends Component  {
   constructor(props){
@@ -12,6 +13,7 @@ class Inicio extends Component  {
       <div>
       <Header></Header>
       <StartBrowser></StartBrowser>
+      <BtnHome></BtnHome>
       </div>
     )
   }

@@ -8,7 +8,7 @@ class StartBrowser extends Component  {
   }
   render (){ 
     return (
-    <div className= "contenedorBotonBuscar">
+    <div className= "contenedorBtnHome">
       <button><img src={imgBtnHome} className="iconoHome"/></button>
     </div>
     )

@@ -1,0 +1,11 @@
+.contenedorBtnHome button{
+    width: 40px;
+    background: none;
+    border: none;
+}
+.contenedorBtnHome button img{
+    width: 100%;
+}
+.contenedorBtnHome{
+    margin-top: 50px;
+}

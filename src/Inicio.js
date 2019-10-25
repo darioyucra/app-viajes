@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import StartBrowser from './StartBrowser';
 import BtnHome from './BtnHome';
+import RegisterLoginBtn from './RegisterLoginBtn';
 
 class Inicio extends Component  {
   constructor(props){
@@ -13,6 +14,7 @@ class Inicio extends Component  {
       <div>
       <Header></Header>
       <StartBrowser></StartBrowser>
+      <RegisterLoginBtn></RegisterLoginBtn>
       <BtnHome></BtnHome>
       </div>
     )

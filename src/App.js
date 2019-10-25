@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
-import Inicio from './Inicio';
+import Header from './Header';
+import StartBrowser from './StartBrowser';
+import BtnHome from './BtnHome';
+import RegisterLoginBtn from './RegisterLoginBtn';
 
 class App extends Component  {
   constructor(){
@@ -9,7 +12,10 @@ class App extends Component  {
   }
   render (){ return (
     <div className="App">
-       <Inicio></Inicio>
+       <Header></Header>
+      <StartBrowser></StartBrowser>
+      <RegisterLoginBtn></RegisterLoginBtn>
+      <BtnHome></BtnHome>
     </div>
   )
   }

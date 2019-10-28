@@ -6,6 +6,7 @@ import StartBrowser from './StartBrowser';
 import BtnHome from './BtnHome';
 import RegisterLoginBtn from './RegisterLoginBtn';
 import Login from './Login';
+import Register from './Register';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,9 @@ class App extends Component  {
         </Route>
         <Route path="/login">
           <Login />
+        </Route>
+        <Route path="/createAccount">
+          <Register />
         </Route>
     </Switch> 
           <BtnHome />

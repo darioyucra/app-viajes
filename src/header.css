@@ -6,3 +6,14 @@ header{
   margin-left: auto;
   margin-right: auto;
 }
+#menuPrincipal{
+  width: 100%;
+  /*background:red;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+#iconUSer{
+  background:red!important;
+}

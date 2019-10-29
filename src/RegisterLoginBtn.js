@@ -15,7 +15,6 @@ class RegisterLoginBtn extends Component  {
   render (){ 
     return (
       <div className="contenedorRegisterLogin">
-        <p>Whant to build your own MYtinerary?</p>
         <div className="contenedorBotones">
           <button><Link to="/login">Log in</Link></button>
           <button><Link to="/createAccount">Create Account</Link></button>

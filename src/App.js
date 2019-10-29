@@ -7,6 +7,7 @@ import BtnHome from './BtnHome';
 import RegisterLoginBtn from './RegisterLoginBtn';
 import Login from './Login';
 import Register from './Register';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
   BrowserRouter as Router,

@@ -46,7 +46,7 @@ class Header extends Component  {
           <Button variant="secondary"><FontAwesomeIcon icon={faUser} /></Button>
         </OverlayTrigger>
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+      <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#link">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
